@@ -1,0 +1,120 @@
+.container{
+    margin: 5% 5%;
+   text-align: center;
+   width: 102%;
+   font-size: medium;
+}
+.navbar-custom{
+    background-color: rgba(0, 0, 0, 0.929);
+    width: 102%;
+}
+.mycar{
+    width: 102%;
+}
+.myrow{
+    width: 102%;
+    margin: 0!important;
+}
+.navbar-text{
+    color: white;
+}
+.active{
+    color: grey!important;
+}
+.btn-cont{
+    display: flex;
+    float: right;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 3px;
+    left: 387px;
+    z-index: 0;
+}
+@media only screen and (max-width:990px) 
+{.btn-cont{
+    /* float: right; */
+    /* top: 50px; */
+    position:relative;
+    left: 1vw;
+}
+}
+
+@media only screen and (min-width:1001px) 
+{.btn-cont{
+    float: right;
+    /* top: 50px; */
+    position:relative;
+    left: 25vw;
+}
+}
+
+.btn-cont button{
+    padding: 5px;
+    margin: 5px;
+}
+.btn-cont button a{
+    color: white !important;
+    text-decoration: none !important;
+
+
+}
+.col a{
+    color: black;
+}
+.box{
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+.mainf{
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    width: 102%;
+    margin: auto;
+    top: 20px;
+    position: relative;
+    color: white;
+}
+.social{
+    margin: auto;
+    position: relative;
+    top: 25px;
+    padding: 10px;
+    font-size: larger;
+}
+.social a{
+    padding: 10px;
+}
+.copyright{
+    position: absolute;
+    left: 20px;
+    top: 23px;
+}
+.contact{
+    /* color: white; */
+    position: absolute;
+    left: 20px;
+    top: 55px;
+}
+@media screen and (max-width:1000px){
+    .mynav{
+        text-align: center;
+    }
+}
+
+.mydrop a:hover{
+    background-color:rgba(0, 0, 0, 0.174);
+}
+.mynav li a:hover{
+    color: goldenrod;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 98%;
+}
+.mybut{
+    color: whitesmoke!important;
+    background-color: white!important;
+}

@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+.bg-dark{
+    background-color: black!important;
+}
+.title{
+    text-align: center;
+    height: 150px;
+    margin: auto;
+    top: 60px;
+    position: relative;
+    overflow:hidden;
+}
+
+.box{
+    background-color: black;
+    display: flex;
+    /* position: absolute; */
+    width: 102%;
+    height: 150%;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 40px 10px;
+}
+.detbox{
+    display: inline;
+    position: relative;
+    /* top: 60px; */
+    margin: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    row-gap: 20px;
+}
+.detbox img{
+    height: 97%;
+    width: 97%;
+    margin: 5px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.imgbox:hover img{
+    transform: translateY(-70px);
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.imgbox{
+    display: inline;
+    z-index: 1;
+    position: relative;
+    /* background-color: black;
+    color:white; */
+    border-radius: 20px;
+}
+.det1{
+    z-index: 0;
+    /* display: none; */
+    position: relative;
+    bottom: 68px;
+    color: white;
+    box-sizing: border-box;
+    /* overflow:visible; */
+}
+.mybut{
+    color: whitesmoke!important;
+    background-color: white!important;
+}
