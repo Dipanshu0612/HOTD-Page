@@ -115,6 +115,12 @@ body{
     width: 98%;
 }
 .mybut{
-    color: whitesmoke!important;
-    background-color: white!important;
+    font-size: medium;
+    color: rgba(243, 171, 6, 0.553);
+    background-color: rgba(12, 11, 11, 0.158)!important;
+}
+@media screen and (min-width:992px) {
+    .mybut{
+        display: none;
+    }
 }
