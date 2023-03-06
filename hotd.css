@@ -115,6 +115,7 @@ body{
     width: 98%;
 }
 .mybut{
+<<<<<<< HEAD
     font-size: medium;
     color: rgba(243, 171, 6, 0.553);
     background-color: rgba(12, 11, 11, 0.158)!important;
@@ -124,3 +125,8 @@ body{
         display: none;
     }
 }
+=======
+    color: whitesmoke!important;
+    background: black!important;
+}
+>>>>>>> 9b6c5533e728e2a2ec6de1e9330aad1df0155c7b
