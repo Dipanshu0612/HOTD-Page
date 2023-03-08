@@ -73,3 +73,18 @@
     color: whitesmoke!important;
     background-color: white!important;
 }
+@media screen and (min-width:992px) {
+    .mybut{
+        display: none;
+    }
+    .btn-cont{
+        margin-left: 13rem;
+    }
+}
+.musicbtn{
+    background: red;
+    padding: 0.5rem 0.5rem;
+}
+.green{
+    background: green;
+}

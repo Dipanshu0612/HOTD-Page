@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .container{
     margin: 5% 5%;
    text-align: center;
@@ -24,7 +27,7 @@
 .btn-cont{
     display: flex;
     float: right;
-    position: relative;
+    /* position: relative; */
     justify-content: center;
     align-items: center;
     top: 3px;
@@ -40,14 +43,14 @@
 }
 }
 
-@media only screen and (min-width:1001px) 
+/* @media only screen and (min-width:1001px) 
 {.btn-cont{
     float: right;
-    /* top: 50px; */
+    top: 50px;
     position:relative;
-    left: 25vw;
+    left: 25vw; 
 }
-}
+} */
 
 .btn-cont button{
     padding: 5px;
@@ -112,10 +115,9 @@
 body{
     margin: 0;
     padding: 0;
-    width: 98%;
+    width: 100%;
 }
 .mybut{
-<<<<<<< HEAD
     font-size: medium;
     color: rgba(243, 171, 6, 0.553);
     background-color: rgba(12, 11, 11, 0.158)!important;
@@ -124,9 +126,14 @@ body{
     .mybut{
         display: none;
     }
+    .btn-cont{
+        margin-left: 13rem;
+    }
 }
-=======
-    color: whitesmoke!important;
-    background: black!important;
+.musicbtn{
+    background: red;
+    padding: 0.5rem 0.5rem;
 }
->>>>>>> 9b6c5533e728e2a2ec6de1e9330aad1df0155c7b
+.green{
+    background: green;
+}
