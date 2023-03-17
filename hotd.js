@@ -21,3 +21,15 @@ musicbtn.onclick=()=>{
         music.play();
     }
 }
+
+ScrollReveal({
+    reset: true,
+    distance: '80px',
+    duration: 2000,
+    delay: 200
+});
+
+ScrollReveal().reveal('.social',{origin:'top'})
+ScrollReveal().reveal('.container',{origin:'bottom'})
+ScrollReveal().reveal('.ITER1',{origin:'left'})
+ScrollReveal().reveal('.ITER2',{origin:'right',delay:100})
