@@ -37,5 +37,6 @@ ScrollReveal({
 
 ScrollReveal().reveal('.social',{origin:'top'})
 ScrollReveal().reveal('.container',{origin:'bottom'})
-ScrollReveal().reveal('.ITER1',{origin:'left'})
-ScrollReveal().reveal('.ITER2',{origin:'right',delay:100})
+ScrollReveal().reveal('.ITER1, .myleft',{origin:'left'})
+ScrollReveal().reveal('.ITER2, .myright',{origin:'right',delay:100})
+
