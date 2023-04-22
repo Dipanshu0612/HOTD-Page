@@ -91,15 +91,10 @@
 }
 .copyright{
     position: absolute;
-    left: 20px;
-    top: 23px;
+    left:20px;
+    bottom: 20px;
 }
-.contact{
-    /* color: white; */
-    position: absolute;
-    left: 20px;
-    top: 55px;
-}
+
 @media screen and (max-width:1000px){
     .mynav{
         text-align: center;
@@ -136,4 +131,10 @@ body{
 }
 .green{
     background: green;
+}
+
+.myform{
+    margin: 1rem 10rem
+
+
 }

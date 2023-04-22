@@ -1,6 +1,12 @@
 function ALERT(){
     alert("This page is still in development!!")
 }
+function myalert(){
+    alert("The show is currently not available in India!")
+}
+function Submit(){
+    alert("Thank You for your feedback!!")
+}
 let counter=0
 let music=new Audio('/Audio/main.mp3');
 // music.play();
