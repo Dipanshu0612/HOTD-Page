@@ -28,6 +28,19 @@ musicbtn.onclick=()=>{
     }
 }
 
+let trailerbtn=document.getElementById('trailer');
+let closebtn=document.getElementById('closebtn');
+trailerbtn.onclick=()=>{
+    document.querySelector('.popupvideo').style.display='block';
+    document.body.style.overflow='hidden';
+}
+closebtn.onclick=()=>{
+    document.querySelector('.popupvideo').style.display='none';
+    document.querySelector('.popupvideo video').pause();
+    document.body.style.overflow='auto';
+}
+
+
 ScrollReveal({
     reset: true,
     distance: '80px',
@@ -35,8 +48,8 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.social',{origin:'top'})
+ScrollReveal().reveal('.social',{origin:'right',delay:200})
 ScrollReveal().reveal('.container',{origin:'bottom'})
-ScrollReveal().reveal('.ITER1, .myleft',{origin:'left'})
+ScrollReveal().reveal('.ITER1, .myleft',{origin:'left',delay:100})
 ScrollReveal().reveal('.ITER2, .myright',{origin:'right',delay:100})
 
