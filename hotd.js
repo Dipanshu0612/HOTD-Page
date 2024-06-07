@@ -1,19 +1,32 @@
-function ALERT(){
-    alert("This page is still in development!!")
+function submitFeedback(){
+    let param={
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        message: document.getElementById('feedbacktext').value,
+    };
+
+
+    if(param.name!="" && param.email!="" && param.message!=""){
+    let serviceID="service_ka1izfp";
+    let templateID="template_j4rouqi";
+    emailjs.send(serviceID,templateID,param).then(
+        alert("Your message was sent succesfully!"),
+        document.getElementById('name').value='',
+        document.getElementById('email').value='',
+        document.getElementById('number').value='',
+        document.getElementById('message').value='',
+        res.preventDefault()
+    ).catch((err)=> console.log(err));
 }
-function myalert(){
-    alert("The show is currently not available in India!")
+else{
+    alert("There was an error sending your feedback! Try again later.")
 }
-function Submit(){
-    alert("Thank You for your feedback!!")
 }
 let counter=0
 let music=new Audio('/Audio/main.mp3');
-// music.play();
 
 let musicbtn=document.getElementById('musicBTN');
 let btntxt=document.getElementsByClassName('musicbtn');
-// console.log(button);
 musicbtn.onclick=()=>{
     counter+=1;
     if(counter%2==0){
